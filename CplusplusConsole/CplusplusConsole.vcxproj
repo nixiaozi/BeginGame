@@ -154,6 +154,9 @@
     <ClCompile Include="CplusplusConsole.cpp" />
     <ClCompile Include="valueTypeInfo.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="valueTypeInfo.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

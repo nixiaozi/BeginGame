@@ -5,7 +5,7 @@
 using namespace std;
 
 namespace valueTypeInfo {
-	void getInfo() {
+	 void getInfo() {
 		cout << "type: \t\t" << "************size**************" << endl;
 		cout << "bool: \t\t" << "所占字节数：" << sizeof(bool);
 		cout << "\t最大值：" << (numeric_limits<bool>::max)();

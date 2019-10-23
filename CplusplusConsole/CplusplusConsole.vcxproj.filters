@@ -16,6 +16,9 @@
     <Filter Include="源文件\baseLearn">
       <UniqueIdentifier>{44e1e2b5-87c0-41b2-aac4-42386f6a4ddd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\baseLearn">
+      <UniqueIdentifier>{bde68513-7a0f-486b-a272-57fd03d9a367}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CplusplusConsole.cpp">
@@ -24,5 +27,10 @@
     <ClCompile Include="valueTypeInfo.cpp">
       <Filter>源文件\baseLearn</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="valueTypeInfo.h">
+      <Filter>头文件\baseLearn</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
