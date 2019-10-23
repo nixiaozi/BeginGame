@@ -6,15 +6,50 @@ using namespace std;
 
 int main()
 {
+#pragma region Hello World
+	cout << "Hello World!\n"; // std::cout << "Hello World!\n"; std:: 等同于 using namespace std;的引用
+#pragma endregion
+
+#if false
+#pragma region 代码块条件
+
 	int condition = 0;
 
 #if condition==0
 	cout << "Hello World0!\n"; // std::cout << "Hello World!\n"; std:: 等同于 using namespace std;的引用
 #endif
 
-	// getInfo();
+#pragma endregion
 
-	cout << "Hello World!\n"; // std::cout << "Hello World!\n"; std:: 等同于 using namespace std;的引用
+#pragma region 获取各数据类型属性
+
+	// getInfo();
+#pragma endregion
+
+#pragma region 自定义参数类型
+
+	// getInfo();
+#pragma endregion
+
+#pragma region 已有数据类别名
+	typedef int feet;
+	feet distance = 90;
+	wcout << "长度为：";
+	wcout << distance << endl;
+#pragma endregion
+
+#endif
+
+#pragma region 定义枚举类型
+	enum color {red=80,black,yellow,blue} c;
+	c = black;
+	cout << "当前颜色为：";
+	cout << c << endl;
+#pragma endregion
+
+
+
+
 	return 0;
 }
 
