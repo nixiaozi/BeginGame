@@ -1,11 +1,24 @@
 ﻿// CplusplusConsole.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
-#include <iostream>
+//#include <iostream>
+//using namespace std;
+
+#include "valueTypeInfo.cpp";
+using namespace valueTypeInfo;
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int condition = 0;
+
+#if condition==0
+	cout << "Hello World0!\n"; // std::cout << "Hello World!\n"; std:: 等同于 using namespace std;的引用
+#endif
+
+	getInfo();
+
+	cout << "Hello World!\n"; // std::cout << "Hello World!\n"; std:: 等同于 using namespace std;的引用
 	return 0;
 }
 
