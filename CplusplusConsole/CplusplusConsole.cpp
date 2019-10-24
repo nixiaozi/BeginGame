@@ -3,6 +3,8 @@
 #include<iostream>  
 using namespace std;
 
+#define MyTe  564;
+
 
 int main()
 {
@@ -47,6 +49,24 @@ int main()
 	cout << c << endl;
 #pragma endregion
 
+#pragma region define指令定义全局变量
+
+	cout << "MyTe值：";
+	cout << MyTe;
+	cout << endl;
+#pragma endregion
+
+#pragma region 有符号整数与无符号整数之间的差别
+	short int i;
+	short unsigned int j;
+	j = 300;
+
+	i = j;
+	cout << i << " " << j;
+
+
+
+#pragma endregion
 
 
 
