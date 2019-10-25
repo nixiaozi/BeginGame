@@ -56,3 +56,11 @@ namespace valueTypeInfo {
 	}
 
 }
+
+
+namespace customspace {
+	void getInfo() {
+		cout << "This is the customspace Info£¡" << endl;
+	}
+
+}

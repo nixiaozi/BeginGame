@@ -3,6 +3,10 @@
 #include<iostream>  
 using namespace std;
 
+#include "valueTypeInfo.h";
+using namespace valueTypeInfo;
+using namespace customspace;
+
 #define MyTe  564;
 
 
@@ -28,10 +32,6 @@ int main()
 	// getInfo();
 #pragma endregion
 
-#pragma region 自定义参数类型
-
-	// getInfo();
-#pragma endregion
 
 #pragma region 已有数据类别名
 	typedef int feet;
@@ -41,6 +41,13 @@ int main()
 #pragma endregion
 
 #endif
+
+
+#pragma region 自定义参数类型
+
+	customspace::getInfo();
+	valueTypeInfo::getInfo();
+#pragma endregion
 
 #pragma region 定义枚举类型
 	enum color {red=80,black,yellow,blue} c;

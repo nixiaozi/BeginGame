@@ -2,3 +2,7 @@
 namespace valueTypeInfo {
 	void getInfo();
 }
+
+namespace customspace {
+	void getInfo();
+}
